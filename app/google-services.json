@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "424836265000",
-    "firebase_url": "https://qhacks2019-27c9e.firebaseio.com",
-    "project_id": "qhacks2019-27c9e",
-    "storage_bucket": "qhacks2019-27c9e.appspot.com"
+    "project_number": "850679178755",
+    "firebase_url": "https://qhacks2019-b3e48.firebaseio.com",
+    "project_id": "qhacks2019-b3e48",
+    "storage_bucket": "qhacks2019-b3e48.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:424836265000:android:cb208f8a85f65356",
+        "mobilesdk_app_id": "1:850679178755:android:4f44f893188ad706",
         "android_client_info": {
-          "package_name": "Q.Hacks2019"
+          "package_name": "project.qhacks.com.qhacksfirebaseauth"
         }
       },
       "oauth_client": [
         {
-          "client_id": "424836265000-4qqf7484otknn3k4ml73v8ifpo7hd1d9.apps.googleusercontent.com",
+          "client_id": "850679178755-54ra5toapathkkie9lsgh9i7fgdu0ce0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAY7SWsKefYz7sAiVOClTPpP5SRFlVJwqA"
+          "current_key": "AIzaSyAvq2CaHAszYw94uiGxWdbOcR26rUpBRG0"
         }
       ],
       "services": {

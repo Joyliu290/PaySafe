@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="project.qhacks.com.qhacksfirebaseauth.MainActivity">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,11 +9,7 @@
         android:text="Email: "
         android:layout_marginTop="60dp"
         android:layout_marginLeft="50dp"
-        android:id="@+id/TextViewEmail"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/TextViewEmail" />
 
     <EditText
         android:layout_width="150dp"
@@ -34,11 +27,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:id="@+id/TextViewPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_below="@+id/emailEditText"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_below="@+id/emailEditText" />
 
     <EditText
         android:layout_width="150dp"
@@ -58,5 +47,4 @@
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:text="Sign In"/>
-
-</>
+</RelativeLayout>
