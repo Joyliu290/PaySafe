@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "424836265000",
+    "firebase_url": "https://qhacks2019-27c9e.firebaseio.com",
+    "project_id": "qhacks2019-27c9e",
+    "storage_bucket": "qhacks2019-27c9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424836265000:android:cb208f8a85f65356",
+        "android_client_info": {
+          "package_name": "Q.Hacks2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424836265000-4qqf7484otknn3k4ml73v8ifpo7hd1d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY7SWsKefYz7sAiVOClTPpP5SRFlVJwqA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
