@@ -1,50 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
 
     <TextView
+        android:id="@+id/TextViewEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email: "
-        android:layout_marginTop="60dp"
         android:layout_marginLeft="50dp"
-        android:id="@+id/TextViewEmail" />
+        android:layout_marginTop="60dp"
+        android:text="Email: " />
 
     <EditText
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_toRightOf="@+id/TextViewEmail"
-        android:layout_marginTop="60dp"
         android:id="@+id/emailEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        />
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/TextViewEmail"
+        android:textColor="@color/colorPrimaryDark"
+        android:cursorVisible="true"
+        android:inputType="textEmailAddress"
+        android:textSize="15dp"/>
 
     <TextView
+        android:id="@+id/TextViewPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password: "
-        android:layout_marginTop="50dp"
+        android:layout_below="@+id/emailEditText"
         android:layout_marginLeft="50dp"
-        android:id="@+id/TextViewPassword"
-        android:layout_below="@+id/emailEditText" />
+        android:layout_marginTop="50dp"
+        android:text="Password: " />
 
     <EditText
-        android:layout_width="150dp"
-        android:layout_height="20dp"
-        android:layout_toRightOf="@+id/TextViewPassword"
-        android:layout_below="@+id/emailEditText"
         android:id="@+id/passwordEditText"
-        android:layout_marginTop="60dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditText"
         android:layout_marginLeft="20dp"
-        />
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/TextViewPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:cursorVisible="true"
+        android:inputType="textPassword"
+        android:textSize="15dp" />
 
     <Button
+        android:id="@+id/signInButton"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_below="@+id/passwordEditText"
-        android:id="@+id/signInButton"
-        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
-        android:text="Sign In"/>
+        android:layout_marginTop="50dp"
+        android:text="Sign In" />
 </RelativeLayout>
