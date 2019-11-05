@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/TextViewUserID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:visibility="visible"
+        android:text="UserID: " />
+
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/userIDDatabaseEditText"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/TextViewUserID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/TextViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/TextViewUserID"
+        android:text="Password: " />
+
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/passwordDatabaseEditText"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/TextViewPassword"
+        android:layout_below="@+id/TextViewUserID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/TextViewPayee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/TextViewPassword"
+        android:text="Payee: " />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/payeeDatabaseEditText"
+        android:layout_toRightOf="@+id/TextViewPayee"
+        android:layout_below="@+id/TextViewPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/TextViewBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/TextViewPayee"
+        android:text="Balance: " />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/balanceDatabaseEditText"
+        android:layout_toRightOf="@+id/TextViewPayee"
+        android:layout_below="@+id/TextViewPayee"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/databaseAddButton"
+        android:layout_below="@+id/balanceDatabaseEditText"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/goSeeDataButton"
+        android:layout_below="@+id/databaseAddButton"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="See Data"/>
+
+
+</RelativeLayout>

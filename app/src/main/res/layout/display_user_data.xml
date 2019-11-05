@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TextViewGetUserID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:visibility="visible"
+        android:text="UserID: " />
+
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/getUserIDEditText"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/TextViewGetUserID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"/>
+
+
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/getUserPayeeEditText"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/getUserIDEditText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/TextViewShowUserPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewGetUserID"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:visibility="visible"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextViewShowUserPayee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewShowUserPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:visibility="visible"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextViewShowUserBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewShowUserPayee"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:visibility="visible"
+        android:text="" />
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="see data"
+        android:layout_below="@id/TextViewShowUserBalance"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonToSeeData"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:id="@+id/addNewPayeeNameEditText"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonToSeeData"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Add user"
+        android:layout_below="@id/addNewPayeeNameEditText"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonToAddNewPayee"/>
+
+
+
+
+</RelativeLayout>
