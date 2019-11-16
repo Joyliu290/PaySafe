@@ -4,8 +4,17 @@
     android:layout_height="match_parent"
     android:visibility="visible">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/paysafe_logo"
+        android:id="@+id/logoPic"/>
+
     <TextView
         android:id="@+id/TextViewEmail"
+        android:layout_below="@id/logoPic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -14,6 +23,7 @@
 
     <EditText
         android:id="@+id/emailEditText"
+        android:layout_below="@+id/logoPic"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -51,7 +61,9 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_below="@+id/passwordEditText"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="Sign Up" />
+        android:layout_alignRight="@+id/passwordEditText"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="Sign In" />
 </RelativeLayout>

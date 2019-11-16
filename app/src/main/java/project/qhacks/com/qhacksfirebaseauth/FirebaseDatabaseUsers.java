@@ -2,22 +2,16 @@ package project.qhacks.com.qhacksfirebaseauth;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class FirebaseDatabaseUsers extends AppCompatActivity {
 
